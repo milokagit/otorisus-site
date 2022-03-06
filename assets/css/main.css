@@ -111,7 +111,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 400;
-		color: #483949;
+		color: #3d3941;
 		line-height: 1.25em;
 	}
 
@@ -140,7 +140,7 @@ input, select, textarea {
 
 	strong, b {
 		font-weight: 400;
-		color: #483949;
+		color: #3d3941;
 	}
 
 	em, i {
@@ -1801,6 +1801,12 @@ input, select, textarea {
 			margin: 0 0 4em 0;
 		}
 
+		.image.team {
+			display: block;
+			width: 100%;
+			margin: 0 0 1em 0;
+		}
+
 		.image.left {
 			float: left;
 			margin: 0 2em 2em 0;
@@ -1943,7 +1949,7 @@ input, select, textarea {
 	form label {
 		display: block;
 		font-weight: 400;
-		color: #483949;
+		color: #3d3941;
 		margin: 0 0 1em 0;
 	}
 
@@ -2176,10 +2182,11 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		background-image: url("../../images/header.jpg");
+		/* background-image: url("../../images/header.jpg");
 		background-size: cover;
 		background-position: center center;
-		background-attachment: fixed;
+		background-attachment: fixed ; */
+		background-color: #bb8939;
 		color: #fff;
 		text-align: center;
 		padding: 7.5em 0 2em 0;
@@ -2246,7 +2253,7 @@ input, select, textarea {
 			margin: 1em 0 0 0;
 		}
 
-	body.homepage #header {
+	/* body.homepage #header {
 		height: 100vh;
 		min-height: 40em;
 	}
@@ -2277,7 +2284,7 @@ input, select, textarea {
 
 	body.homepage.is-preload #header:after {
 		opacity: 1;
-	}
+	} */
 
 /* Nav */
 
@@ -2418,6 +2425,12 @@ input, select, textarea {
 			margin-bottom: 0;
 		}
 
+		#banner > p {
+			font-size: 1.2em;
+			line-height: 1.75em;
+			padding: 50px;
+		}
+
 /* Content */
 
 	#content > hr {
@@ -2427,6 +2440,11 @@ input, select, textarea {
 
 	#content > section {
 		margin-bottom: 0;
+	}
+
+	.team-spec {
+		color: #6D6D6D;
+		font-size: .75em;
 	}
 
 /* Sidebar */
@@ -2452,6 +2470,12 @@ input, select, textarea {
 
 		#main section:first-of-type {
 			padding-top: 2em;
+		}
+
+		#main > p {
+			font-size: 1.2em;
+			line-height: 1.75em;
+			margin: 1em 1em 2em 1em;
 		}
 
 /* Footer */
@@ -2785,6 +2809,10 @@ input, select, textarea {
 
 		/* Image */
 
+			.image.team {
+				margin: 0 0 0.5em 0;
+			}
+		
 			.image.featured {
 				margin: 0 0 2em 0;
 			}
@@ -3135,4 +3163,22 @@ input, select, textarea {
 						margin-bottom: 2em;
 					}
 
+	}
+
+	.call-to-action {
+		background-color: #f4f2f2;
+	}
+
+	.call-to-action a.call-button {
+		margin: 100px auto;
+		color: #fff;
+		border: 1px solid #bb8939;
+		padding: 50px;
+		background-color: #bb8939;
+		font-size: 32px;
+	}
+
+	.call-to-action a.call-button:hover {
+		border: 1px solid #FCB94C;
+		background-color: #FCB94C;
 	}
