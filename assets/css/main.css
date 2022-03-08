@@ -3206,6 +3206,10 @@ input, select, textarea {
 		background-color: #FCB94C;
 	}
 
+  .reel > article > header > h3 {
+    min-height: 2.5em;
+  }
+
   .reel > article > p {
     overflow: hidden;
     text-overflow: ellipsis;
