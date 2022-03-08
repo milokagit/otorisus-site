@@ -3185,6 +3185,12 @@ input, select, textarea {
 
 	}
 
+	.call-to-action {
+    margin: 50px auto;
+    display: block;
+    text-align: center;
+	}
+
 	.call-to-action a.call-button {
 		margin: 10% auto;
 		color: #fff;
