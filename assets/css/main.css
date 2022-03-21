@@ -2174,9 +2174,17 @@ input, select, textarea {
 		padding: 6em 0 6em 0;
 	}
 
-		.wrapper.style2 {
-			padding-top: 0;
-		}
+	.wrapper.style2 {
+		padding-top: 0;
+	}
+
+	.wrapper.style3 {
+		background-color: #bb8939;
+	}
+
+	.wrapper.style4 {
+		background-color: #fff;
+	}
 
 /* Header */
 
@@ -3186,7 +3194,13 @@ input, select, textarea {
 	}
 
 	.call-to-action {
-    margin: 150px auto;
+    margin: 50px auto;
+    display: block;
+    text-align: center;
+	}
+
+	.call-to-action-branco {
+		margin: 10px auto;
     display: block;
     text-align: center;
 	}
@@ -3204,6 +3218,30 @@ input, select, textarea {
 	.call-to-action a.call-button:hover {
 		border: 1px solid #FCB94C;
 		background-color: #FCB94C;
+	}
+
+	.call-to-action-branco a.call-button {
+		margin: 10% auto;
+		color: #bb8939;
+		font-weight: bold;
+		border: 1px solid #f0f4f4;
+		padding: 25px;
+		background-color: #f0f4f4;
+		font-size: 1.25em;
+		border-radius: 0.5em;
+	}
+
+	.call-to-action-branco a.call-button:hover {
+		border: 1px solid #DEE3E3;
+		background-color: #DEE3E3;
+	}
+
+	.plans {
+		margin-top: 50px;
+	}
+
+	.first-plan {
+		float: right;
 	}
 
   .reel > article > header > h3 {
