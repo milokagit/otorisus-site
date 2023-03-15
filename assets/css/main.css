@@ -390,6 +390,20 @@ hr:after {
 
 }
 
+/* Content */
+
+.title {
+	margin-bottom: 50px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.content {
+	margin: auto 20px;
+}
+
 /* Row */
 
 .row {
@@ -1953,6 +1967,10 @@ ul {
 	padding-left: 1em;
 }
 
+ul.content {
+	margin: auto 20px;
+}
+
 ul li {
 	padding-left: 0.5em;
 }
@@ -2300,6 +2318,10 @@ header .icon.circled {
 
 .wrapper.style2 {
 	padding-top: 0;
+}
+
+.wrapper.style2-inside {
+	padding-top: 50px;
 }
 
 .wrapper.style3 {
@@ -3409,4 +3431,5 @@ header .icon.circled {
 	/* number of lines to show */
 	line-clamp: 5;
 	-webkit-box-orient: vertical;
+	min-height: 6em;
 }
